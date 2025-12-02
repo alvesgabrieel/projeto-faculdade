@@ -30,13 +30,20 @@ int main() {
          fprintf
          fputs
 
-        > Formatos:
+        > Especificadores de formatos:
          %c - caractere
          %s - string (conjunto de caracteres)
          %d - inteiro (número inteiro)
+         %ld - long int
+         %lld - long long int
          %i - inteiro (número inteiro, pode ser decimal, octal ou hexadecimal)   
          %f - ponto flutuante (número com parte decimal)
          %e - notação científica
+
+         >>> modificadores:
+         unsigned: trabalha apenas com valores positivos, aumentando sua capacidade 
+         long: deixa a capacidade de trabalhar com valores maiores e mais precisos
+         short:consumo de memória é menor, diminui a quantidade de bytes disponivéis, é bom para variáveis de tamanho menor
     */
 
 }
